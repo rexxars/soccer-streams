@@ -1,0 +1,23 @@
+{
+  "name": "soccer-streams",
+  "private": true,
+  "version": "1.0.0",
+  "description": "An electron app for watching soccer streams",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . soccer-streams"
+  },
+  "repository": "https://github.com/rexxars/soccer-streams",
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "electron-packager": "^8.6.0",
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "preact": "^8.1.0",
+    "soccer-streams-scraper": "^1.0.1"
+  }
+}

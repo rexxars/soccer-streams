@@ -13,3 +13,5 @@ node_modules
 # Yarn lockfile
 yarn.lock
 
+# Built versions
+/soccer-streams-*
